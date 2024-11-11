@@ -1,0 +1,319 @@
+{
+"usuarios": [
+    {
+        "id": 3,
+        "username": "salcotech",		
+        "nombre": "salcotech",
+        "apellidos": "salcotech",
+        "telefono": "664999999",
+        "ultima_conexion": "2024-11-11T08:18:30.382845Z",
+        "email": "j.tendero.software@gmail.com",
+        "role": {
+            "id": 1,
+            "nombre": "ADMIN",
+            "descripcion": "ADMINISTRADOR",
+            "permisos": []
+        },
+        "empresas": [{
+                "id": 1,
+                "nombre": "salcotech",
+                "CIF": "99999999",
+                "direccion": "Rúa Marqués de Valterra",
+                "codigo_postal": "36202",
+                "pais": "España",
+                "telefono": "+34 986 29 11 03",
+                "email": "info@salcotech.com",
+                "activo": true,
+                "comentarios": null,
+                "almacenes": [{
+                        "id": 1,
+                        "nombre": "Almacen 1",
+                        "comentarios": "Almacen empresa salcotech",
+                        "activo": true,
+                        "neumaticos": [{
+                                "id": 18,
+                                "posicion": 3,
+                                "codigo_posicion": null,
+                                "idneumatico": 3,
+                                "eje": 1,
+                                "tipo": 1,
+                                "serial_number": "DOT-M535-DT1-1023",
+                                "marca": "CONTINENTAL",
+                                "modelo": "HA3",
+                                "medidas": null,
+                                "estacion": null,
+                                "presion": 9,
+                                "temperatura": 60,
+                                "profundidad": 6,
+                                "fecha_instalacion": "2024-05-28T10:36:15.792000Z",
+                                "fecha_retirada": null,
+                                "km_instalacion": 55000,
+                                "km_retirada": 0,
+                                "km_recorridos": 15000,
+                                "km_estimados": null,
+                                "estado": 4,
+                                "reesculturado": false,
+                                "recauchutado": false,
+                                "observaciones": null
+                            }
+                        ]
+                    }, {
+                        "id": 3,
+                        "nombre": "qqqqqq",
+                        "comentarios": "aaaaaaaaa",
+                        "activo": true,
+                        "neumaticos": []
+                    }
+                ]
+            }, {
+                "id": 2,
+                "nombre": "Empresa 2",
+                "CIF": "44444",
+                "direccion": "c/prueba",
+                "codigo_postal": "46500",
+                "pais": "España",
+                "telefono": "55555445",
+                "email": "info@empresa2.com",
+                "activo": false,
+                "comentarios": "",
+                "almacenes": [{
+                        "id": 2,
+                        "nombre": "ffff",
+                        "comentarios": "fadsfasdfd",
+                        "activo": true,
+                        "neumaticos": []
+                    }
+                ]
+            }
+        ],
+        "empresa_usuario": {
+            "id": 1,
+            "nombre": "salcotech",
+            "CIF": "99999999",
+            "direccion": "Rúa Marqués de Valterra",
+            "codigo_postal": "36202",
+            "pais": "España",
+            "telefono": "+34 986 29 11 03",
+            "email": "info@salcotech.com",
+            "activo": true,
+            "comentarios": null,
+            "almacenes": [{
+                    "id": 1,
+                    "nombre": "Almacen 1",
+                    "comentarios": "Almacen empresa salcotech",
+                    "activo": true,
+                    "neumaticos": [{
+                            "id": 18,
+                            "posicion": 3,
+                            "codigo_posicion": null,
+                            "idneumatico": 3,
+                            "eje": 1,
+                            "tipo": 1,
+                            "serial_number": "DOT-M535-DT1-1023",
+                            "marca": "CONTINENTAL",
+                            "modelo": "HA3",
+                            "medidas": null,
+                            "estacion": null,
+                            "presion": 9,
+                            "temperatura": 60,
+                            "profundidad": 6,
+                            "fecha_instalacion": "2024-05-28T10:36:15.792000Z",
+                            "fecha_retirada": null,
+                            "km_instalacion": 55000,
+                            "km_retirada": 0,
+                            "km_recorridos": 15000,
+                            "km_estimados": null,
+                            "estado": 4,
+                            "reesculturado": false,
+                            "recauchutado": false,
+                            "observaciones": null
+                        }
+                    ]
+                }, {
+                    "id": 3,
+                    "nombre": "qqqqqq",
+                    "comentarios": "aaaaaaaaa",
+                    "activo": true,
+                    "neumaticos": []
+                }
+            ]
+        }
+    }, 
+    {
+        "id": 5,
+        "username": "usuario",
+        "nombre": "usuario",
+        "apellidos": "asuario",
+        "telefono": "666999999",
+        "ultima_conexion": "2024-09-04T10:09:28.982794Z",
+        "email": "j.tendero.software@gmail.com",
+        "role": {
+            "id": 3,
+            "nombre": "USUARIO",
+            "descripcion": "USUARIO",
+            "permisos": []
+        },
+        "empresas": [{
+                "id": 1,
+                "nombre": "salcotech",
+                "CIF": "99999999",
+                "direccion": "Rúa Marqués de Valterra",
+                "codigo_postal": "36202",
+                "pais": "España",
+                "telefono": "+34 986 29 11 03",
+                "email": "info@salcotech.com",
+                "activo": true,
+                "comentarios": null,
+                "almacenes": [{
+                        "id": 1,
+                        "nombre": "Almacen 1",
+                        "comentarios": "Almacen empresa salcotech",
+                        "activo": true,
+                        "neumaticos": [{
+                                "id": 18,
+                                "posicion": 3,
+                                "codigo_posicion": null,
+                                "idneumatico": 3,
+                                "eje": 1,
+                                "tipo": 1,
+                                "serial_number": "DOT-M535-DT1-1023",
+                                "marca": "CONTINENTAL",
+                                "modelo": "HA3",
+                                "medidas": null,
+                                "estacion": null,
+                                "presion": 9,
+                                "temperatura": 60,
+                                "profundidad": 6,
+                                "fecha_instalacion": "2024-05-28T10:36:15.792000Z",
+                                "fecha_retirada": null,
+                                "km_instalacion": 55000,
+                                "km_retirada": 0,
+                                "km_recorridos": 15000,
+                                "km_estimados": null,
+                                "estado": 4,
+                                "reesculturado": false,
+                                "recauchutado": false,
+                                "observaciones": null
+                            }
+                        ]
+                    }, {
+                        "id": 3,
+                        "nombre": "qqqqqq",
+                        "comentarios": "aaaaaaaaa",
+                        "activo": true,
+                        "neumaticos": []
+                    }
+                ]
+            }
+        ],
+        "empresa_usuario": {
+            "id": 1,
+            "nombre": "salcotech",
+            "CIF": "99999999",
+            "direccion": "Rúa Marqués de Valterra",
+            "codigo_postal": "36202",
+            "pais": "España",
+            "telefono": "+34 986 29 11 03",
+            "email": "info@salcotech.com",
+            "activo": true,
+            "comentarios": null,
+            "almacenes": [{
+                    "id": 1,
+                    "nombre": "Almacen 1",
+                    "comentarios": "Almacen empresa salcotech",
+                    "activo": true,
+                    "neumaticos": [{
+                            "id": 18,
+                            "posicion": 3,
+                            "codigo_posicion": null,
+                            "idneumatico": 3,
+                            "eje": 1,
+                            "tipo": 1,
+                            "serial_number": "DOT-M535-DT1-1023",
+                            "marca": "CONTINENTAL",
+                            "modelo": "HA3",
+                            "medidas": null,
+                            "estacion": null,
+                            "presion": 9,
+                            "temperatura": 60,
+                            "profundidad": 6,
+                            "fecha_instalacion": "2024-05-28T10:36:15.792000Z",
+                            "fecha_retirada": null,
+                            "km_instalacion": 55000,
+                            "km_retirada": 0,
+                            "km_recorridos": 15000,
+                            "km_estimados": null,
+                            "estado": 4,
+                            "reesculturado": false,
+                            "recauchutado": false,
+                            "observaciones": null
+                        }
+                    ]
+                }, {
+                    "id": 3,
+                    "nombre": "qqqqqq",
+                    "comentarios": "aaaaaaaaa",
+                    "activo": true,
+                    "neumaticos": []
+                }
+            ]
+        }
+    }, 
+    {
+        "id": 6,
+        "username": "director",
+        "nombre": "Director",
+        "apellidos": "director",
+        "telefono": "665787879",
+        "ultima_conexion": "2024-09-04T10:10:26.207614Z",
+        "email": "j.tendero.software@gmail.com",
+        "role": {
+            "id": 2,
+            "nombre": "DIRECTOR",
+            "descripcion": "DIRECTOR FLOTA",
+            "permisos": []
+        },
+        "empresas": [{
+                "id": 2,
+                "nombre": "Empresa 2",
+                "CIF": "44444",
+                "direccion": "c/prueba",
+                "codigo_postal": "46500",
+                "pais": "España",
+                "telefono": "55555445",
+                "email": "info@empresa2.com",
+                "activo": false,
+                "comentarios": "",
+                "almacenes": [{
+                        "id": 2,
+                        "nombre": "ffff",
+                        "comentarios": "fadsfasdfd",
+                        "activo": true,
+                        "neumaticos": []
+                    }
+                ]
+            }
+        ],
+        "empresa_usuario": {
+            "id": 2,
+            "nombre": "Empresa 2",
+            "CIF": "44444",
+            "direccion": "c/prueba",
+            "codigo_postal": "46500",
+            "pais": "España",
+            "telefono": "55555445",
+            "email": "info@empresa2.com",
+            "activo": false,
+            "comentarios": "",
+            "almacenes": [{
+                    "id": 2,
+                    "nombre": "ffff",
+                    "comentarios": "fadsfasdfd",
+                    "activo": true,
+                    "neumaticos": []
+                }
+            ]
+        }
+    }
+]
+}
